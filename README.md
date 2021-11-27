@@ -20,7 +20,8 @@ L'archive contient ces documents :
 - un dossier "sourcedoc" : contenant des fichier" .rst pour l'affiche web.
 - un dossier "data" : contient un Readme décrivant le projet, et un support PowerPoint pour la soutenance du projet dans le contexte de l'UE AP2 de la L2 Informatique.
 - un fichier "confy.py"
-- un fichier "Makefile
+- un fichier "Makefile"
+- un dossier "_templates" : contenant le fichier "layout.html", c’est un squelette décrivant le format des pages HTML que l'on a produit pour la documentation.
 
 ## Contexte : 
 La présentation du projet se trouve via ce lien : https://www.fil.univ-lille1.fr/~L2S3API/CoursTP/Projets/AlgoGen/index.html
