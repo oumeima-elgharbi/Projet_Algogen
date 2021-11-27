@@ -8,12 +8,6 @@ Date : novembre 2021.
 
 ## Les deux archives sur Github
 
-### Archive "doc" qui permet d'avoir la présentation sous forme de page web du projet et du code.
-- Commencer par ouvrir le fichier "index.html" pour accéder au sommaire.
-- La documentation et le code de chaque classe et fonction se trouve dans les pages web.
-- Par exemple : ouvrir "index.html" puis cliquer sur "algogen module". La documentation apparaît et si l'on clique sur "source" le code python apparaît.
-- Le page "journal" fait référence au Readme de l'archive algogen.
-
 ### Archive "algogen" qui contient le code.
 L'archive contient ces documents : 
 - un dossier "src" : contient le code en Python
@@ -22,6 +16,23 @@ L'archive contient ces documents :
 - un fichier "confy.py"
 - un fichier "Makefile"
 - un dossier "_templates" : contenant le fichier "layout.html", c’est un squelette décrivant le format des pages HTML que l'on a produit pour la documentation.
+
+### Archive "doc" qui permet d'avoir la présentation sous forme de page web du projet et du code.
+- Commencer par ouvrir le fichier "index.html" pour accéder au sommaire.
+- La documentation et le code de chaque classe et fonction se trouve dans les pages web.
+- Par exemple : ouvrir "index.html" puis cliquer sur "algogen module". La documentation apparaît et si l'on clique sur "source" le code python apparaît.
+- Le page "journal" fait référence au Readme de l'archive algogen.
+
+### Remarque : 
+Toute la documentation de ce projet est rédigée :
+- dans les docstrings contenues dans les différents fichiers de programmes Python contenus dans le dossier src ;
+- et dans les fichiers au format rst contenus dans le dossier sourcedoc.
+
+Nous avons produit une version HTML de cette documentation.
+
+Pour cela, dans un terminal de commandes, placez vous dans le dossier algogen contenant tous les fichiers du projet (et en particulier le fichier Makefile), et tapez la commande "make doc".
+
+Pour des questions de simplicité, l'archive "doc" a été déposée sur Github, mais il est possible de la générer via la commande "make doc" en se plaçant dans le dossier "algogen" 
 
 ## Contexte : 
 La présentation du projet se trouve via ce lien : https://www.fil.univ-lille1.fr/~L2S3API/CoursTP/Projets/AlgoGen/index.html
